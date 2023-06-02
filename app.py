@@ -5,7 +5,7 @@ import geopandas as gpd
 
 from sklearn.neighbors import BallTree
 
-from flask import Flask, request
+from flask import Flask, request, render_template
 app = Flask(__name__)
 
 @app.route('/')
