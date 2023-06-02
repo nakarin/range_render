@@ -1,7 +1,7 @@
 requests==2.27.1
 osmnx 
 networkx 
-sklearn 
+scikit-learn 
 geopy
 numpy
 flask
