@@ -13,6 +13,16 @@ def index():
     return render_template('index.html')
 
 
+@app.route('/test', methods=['GET'])
+def test():
+    args = request.args
+    try:
+        param = args.get('param')
+    except:
+        param = "NO"
+
+    return {"status":"OK","result":param}
+
 ################
 # https://range.onrender.com/range?begin_lat=18.807051&begin_lng=99.023283&end_lat=18.800674&end_lng=99.023021
 ################
