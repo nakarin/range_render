@@ -12,6 +12,10 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello, World!'
 
+
+################
+# https://range.onrender.com/range?begin_lat=18.807051&begin_lng=99.023283&end_lat=18.800674&end_lng=99.023021
+################
 @app.route('/range', methods=['GET'])
 def cal_range():
     args = request.args
