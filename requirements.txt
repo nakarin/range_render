@@ -1,0 +1,7 @@
+requests==2.27.1
+osmnx 
+networkx 
+sklearn 
+geopy
+numpy
+flask
